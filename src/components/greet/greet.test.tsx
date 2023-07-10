@@ -9,12 +9,13 @@ describe('Greet', ()=>{
         expect(expectedText).toBeInTheDocument();
     
     })
-    
-    
-    test('Greet renders with a name', ()=>{
-        render(<Greet name="Bretton"/>)
-        const expectedText = screen.getByText(/Hello Bretton/i)
-        expect(expectedText).toBeInTheDocument();
+
+    describe('Nested',()=>{
+        test('Greet renders with a name', ()=>{
+            render(<Greet name="Bretton"/>)
+            const expectedText = screen.getByText(/Hello Bretton/i)
+            expect(expectedText).toBeInTheDocument();
+        })
     })
 
 })
