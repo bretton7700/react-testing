@@ -3,6 +3,7 @@ export const Application = () =>{
         <>
             <h1>Job Application Form</h1>
             <h3>Section</h3>
+            <p>All Fields are Mandatory</p>
         <form>
             <div>
                 <label htmlFor="name">Name</label>
