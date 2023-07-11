@@ -1,10 +1,17 @@
 export const Application = () =>{
     return(
+        <>
+            <h1>Job Application Form</h1>
+            <h3>Section</h3>
         <form>
             <div>
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" />
 
+            </div>
+            <div>
+                <label htmlFor="bio">Bio</label>
+                <textarea id="bio" name="bio"/>
             </div>
 
             <div>
@@ -26,6 +33,7 @@ export const Application = () =>{
 
             <button>Submit</button>
         </form>
+        </>
     )
 
 }
