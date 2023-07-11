@@ -14,6 +14,9 @@ describe("Application",()=>{
         })
         expect(sectionHeader).toBeInTheDocument();
 
+        const spanTitle = screen.getByTitle("close")
+        expect(spanTitle).toBeInTheDocument();
+
         const paragraphElement = screen.getByText("All Fields are Mandatory")
         expect(paragraphElement).toBeInTheDocument();
 

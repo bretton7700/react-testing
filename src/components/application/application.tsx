@@ -4,7 +4,9 @@ export const Application = () =>{
             <h1>Job Application Form</h1>
             <h3>Section</h3>
             <p>All Fields are Mandatory</p>
-
+<span title="close">
+    x
+</span>
             <img src="https://images.pexels.com/photos/3345882/pexels-photo-3345882.jpeg?auto=compress&cs=tinysrgb&w=600" alt="a guy with laptops"/>
         <form>
             <div>
